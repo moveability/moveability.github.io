@@ -493,7 +493,7 @@
         <form
           method="POST"
           name="sentMessage"
-          id="contactForm" action="//formspree.io/%25!s%28%3cnil%3e%29">
+          id="contactForm" action="//formspree.io/mark.padgham@email.com">
 
           <fieldset>
             <div class="row">
@@ -515,7 +515,7 @@
 
                 
                 <div class="form-group">
-                  <input class="form-control" id="phone" required="required" type="number" name="phone" placeholder="Your Phone *" data-validation-error-msg="Please enter your phone number."></textarea>
+                  <input class="form-control" id="phone" type="number" name="phone" placeholder="Your Phone" data-validation-error-msg="Please enter your phone number.">
                   <p class="help-block text-danger"></p>
                 </div>
                 
@@ -537,18 +537,13 @@
                     Thank you for contacting us.
                   
                 </div>
-                <div class="captcha-error text-danger" id="captcha-error">
-                  Message is not sendable due to captcha not loadable. Please contact us at .
-                </div>
                 <div class="text-danger" id="error" style="display:none;">
                   
-                    Message could not be send. Please contact us at  instead.
+                    Message could not be send. Please contact us at mark.padgham@email.com instead.
                   
                 </div><br />
                 
-                  <button type="submit" value="Submit" class="btn btn-xl">
-                    Send message
-                  </button>
+                  <input type="submit" value="Send message" class="btn btn-xl" />
                 
               </div>
             </div>
